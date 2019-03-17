@@ -7,7 +7,7 @@ ArrayList<Spike> spikes;
 color backgroundColour = color(255, 100, 50, 75);
 
 void setup() {
-  size(607, 1080);  //Set the size for the app on desktop only (sized to resemble mobile display)
+  size(600, 900);  //Set the size for the app on desktop only (sized to resemble mobile display)
   //fullScreen();  //Set the app to fullscreen (for mobile only)
   
   backgroundColour = color(random(100, 255), random(100, 255), random(100, 255), 75);  //Create a random colour and set the background to that colour
